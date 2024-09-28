@@ -143,3 +143,109 @@ junior_contribution = junior_players * (0.40 * Y)
 total_contribution = senior_contribution + junior_contribution
 print(f"Total contribution towards flood relief: Rs {total_contribution:.2f}")
 
+
+
+
+
+
+'''6)
+It were the days of domination from the traditional metros in the team selections and everytime the team is announced for the Indian Squad, mere disappointment was left with this small town player. Dhoni’ill fate continued even during the team selections for the India A squad to tour to Zimbabwe.3 new players from Mumbai were on the list for the Indian team and it was claimed by the selectors that Dhoni was a bit younger than the 3 selected players.
+  Assume the 3 players are Named X,Y and Z. The ages of the players X and Y are the same and the age of the Z is 10 more than other 2 players. Given the total age of the 3 players, find the age of the 3 players.
+Input format:
+First line of the input is an integer that corresponds to the total age of the 3 players.
+Output format:
+Output should display the ages of the three players in 3 lines. The age of the eldest player should be displayed in the last line.
+Sample input and output 1:
+70
+20
+20
+30
+Sample input and output 2:
+100
+30
+30
+40
+'''
+#code:
+a=int(input("give the total age of those three players  "))
+x=(a-10)/3
+y=x
+z=x+10
+print(x)
+print(y)
+print(z)
+
+
+
+
+'''
+7)
+You are given principal amount, rate of interest per annum, and time in years. You need to calculate the simple interest.
+Input and Output Format
+Input Format:
+The first line contains the principal amount (principal).
+The second line contains the rate of interest (rate) per annum.
+The third line contains the time (time) in years.
+Output Format:
+A single line containing the simple interest calculated.
+'''
+
+#code:
+principal_amt=int(input("enter the principal amount "))
+interest_amt=int(input("enter the rate of interest "))
+time=int(input("time "))
+simple_interest=(principal_amt*interest_amt*time)/100
+print(simple_interest)
+
+
+'''
+8)
+You are given a temperature in Celsius. You need to convert it to Fahrenheit.
+Input and Output Format
+Input Format:
+A single integer celsius.
+Output Format:
+A single line containing the temperature in Fahrenheit.
+To convert a temperature from Celsius to Fahrenheit, you use the following formula:
+Multiply the temperature in Celsius by 9/5.
+Add 32 to the result of step 1.
+'''
+
+#code:
+a=int(input("enter the degree celsius "))
+x=a*(9/5)
+y=x+32
+print({},"the fahrenheit of cenlsius degrees",{},"is:",y,a )
+
+
+
+'''
+9)
+Ajay, Binoy and Chandru were very close friends at school. They were very good in Mathematics 
+and they were the pet students of Emily Mam. Their gang was known as 3-idiots. Ajay, Binoy and Chandru live in the same locality.
+A new student Dinesh joins their class and he wanted to be friends with them. 
+He asked Binoy about his house address. Binoy wanted to test Dinesh's mathematical skills. 
+Binoy told Dinesh that his house is at the midpoint of the line joining Ajay's house and Chandru's house. 
+Dinesh was puzzled. Can you help Dinesh out? Given the coordinates of the 2 end points of a line (x1,y1) and (x2,y2), 
+write a python program to find the midpoint of the line. 
+Input Format: Input consists of 4 integers. 
+The first integer corresponds to x1 .
+The second integer corresponds to y1. 
+The third and fouth integers correspond to x2 and y2 respectively. 
+Output Format: Refer Sample Input and Output for exact formatting specifications. 
+[All floating point values are displayed correct to 1 decimal place]
+
+
+#code:
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+x=(a+c)/2
+y=(b+d)/2
+print("the midpoints are: ")
+print(x)
+print(y)
+
+
+
